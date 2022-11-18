@@ -969,6 +969,10 @@ color: rgba(255, 255, 255, 0.6);
   background-color: var(--white);
 }
 
+.modal-close-icon:hover{
+  fill: var(--blue);
+}
+
 .backdrop.is-hidden {
   opacity: 0;
   visibility: hidden;
@@ -1033,6 +1037,7 @@ color: rgba(255, 255, 255, 0.6);
 .modal-input::placeholder {
 }
 
+/*
 .modal-input:not(:focus):not(:placeholder-shown):valid {
   background-color: rgb(187, 227, 187);
 }
@@ -1040,6 +1045,7 @@ color: rgba(255, 255, 255, 0.6);
 .modal-input:not(:focus):not(:placeholder-shown):invalid {
   background-color: rgb(243, 178, 178);
 }
+*/
 
 .modal-text {
   width: 100%;
